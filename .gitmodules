@@ -1,0 +1,6 @@
+[submodule "ecommerce-admin"]
+	path = ecommerce-admin
+	url = .\\ecommerce-admin\\
+[submodule "ecommerce-store"]
+	path = ecommerce-store
+	url = .\\ecommerce-store\\
