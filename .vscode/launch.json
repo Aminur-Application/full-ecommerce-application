@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: Debug ecommerce-store",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "${workspaceFolder}/ecommerce-store/node_modules/.bin/next",
+      "cwd": "${workspaceFolder}/ecommerce-store", // Specify the path to the "ecommerce-store" project
+      "serverReadyAction": {
+        "pattern": "- Local:.+(https?://.+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      },
+    }
+  ]
+}
